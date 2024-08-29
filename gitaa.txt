@@ -7,6 +7,9 @@ git init
 git add
 올리전에 하는 과정
 
+git add . 
+전체올리기
+
 git commit -m "orientation"
 깃 커밋 올리기
 
