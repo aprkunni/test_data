@@ -1,0 +1,38 @@
+git status
+현재 깃의 상태 새파일이 만들어졌는지 확인
+
+git init
+깃 생성
+
+git add
+올리전에 하는 과정
+
+git add . 
+전체올리기
+
+git commit -m "orientation"
+깃 커밋 올리기
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+git log
+해쉬코드 확인
+
+cat "파일"
+텍스트 내용 확인
+
+git checkout "해쉬코드" 162b89e6c08183868441f8e8655bdb327c2236b2
+그 상태로 보냄
+
+git checkout -
+이전 상태로 보냄
+
+git branch -M main
+
+git remote add origin https://github.com/aprkunni/test_data.git
+
+리눅스 명령어
+cd, pwd, ls, touch, cat
+
+echo " text " >> README.md
