@@ -28,7 +28,20 @@ git checkout "해쉬코드" 162b89e6c08183868441f8e8655bdb327c2236b2
 git checkout -
 이전 상태로 보냄
 
+git branch -M main
+
+git remote add origin https://github.com/aprkunni/test_data.git
+
+git push -u origin
+git pull
+
+
+git clone "URL"
+
+git clone "URL" .
+현재 폴더 
+
 리눅스 명령어
 cd, pwd, ls, touch, cat
 
-test
+echo " text " >> README.md
