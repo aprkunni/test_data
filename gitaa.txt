@@ -24,7 +24,6 @@ cat "파일"
 
 git checkout "해쉬코드" 162b89e6c08183868441f8e8655bdb327c2236b2
 그 상태로 보냄
-
 git checkout -
 이전 상태로 보냄
 
@@ -32,16 +31,22 @@ git branch -M main
 
 git remote add origin https://github.com/aprkunni/test_data.git
 
-git push -u origin
+git push -u origin main
 git pull
 
-
 git clone "URL"
-
 git clone "URL" .
 현재 폴더 
 
 리눅스 명령어
 cd, pwd, ls, touch, cat
-
 echo " text " >> README.md
+
+git config --list
+자료 확인
+
+git remote "your origin"
+
+git rm --cashed
+깃 스테이터스에 올라간거 내림
+
